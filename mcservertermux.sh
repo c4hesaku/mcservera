@@ -1,5 +1,5 @@
-pkg install openjdk-21
-pkg install zlib
+pkg install openjdk-21 -y
+pkg install zlib -y
 termux-setup-storage
 cd /sdcard
 mkdir minecraft-server
